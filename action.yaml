@@ -10,7 +10,7 @@ inputs:
   check-anchors:
     description: "Whether anchors should be also checked. Default: true"
     required: false
-    default: "true"
+    default: "false"
 runs:
   using: 'docker'
   image: 'Dockerfile'
